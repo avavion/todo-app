@@ -1,0 +1,22 @@
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  padding: 30px 20px 0;
+  border-bottom: 2px solid #cecece;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #333333;
+}
+
+input[type="checbox"] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+}
