@@ -2,11 +2,11 @@ import React from "react";
 
 import "./TodoItem.css";
 
-function TodoItem() {
+function TodoItem(props) {
   return (
     <div className="todo-item">
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <label for="">{props.item.name}</label>
+      <input type="checkbox" checked={props.item.status}/>
     </div>
   );
 }
